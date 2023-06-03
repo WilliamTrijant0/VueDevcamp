@@ -1,4 +1,11 @@
 <script setup>
+// export default {
+//   data() {
+//     return {
+//       count: 0
+//     }
+//   }
+// }
 import { ref, computed } from 'vue';
 // import TheWelcome from '../components/TheWelcome.vue'
 // const msg = 'Halo bang'
@@ -29,7 +36,7 @@ const items = ref([
       { id: 3, name: "Lombok", price: 3000 },
     ]);
 
-
+// export default{}
 
 </script>
 
@@ -53,6 +60,7 @@ const items = ref([
       </li>
     </ul>
   </div>
+  
 
 
   </main>
